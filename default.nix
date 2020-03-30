@@ -16,6 +16,7 @@
 
   bazarr = pkgs.callPackage ./pkgs/bazarr { };
   ccat = pkgs.callPackage ./pkgs/ccat { };
+  expo-cli = (pkgs.callPackage ./pkgs/node-packages/expo-cli { }).package;
   gitmoji-cli = (pkgs.callPackage ./pkgs/node-packages/gitmoji-cli { }).package;
   now = (pkgs.callPackage ./pkgs/node-packages/now { }).package;
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
