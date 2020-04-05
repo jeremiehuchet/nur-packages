@@ -21,4 +21,5 @@
   now = (pkgs.callPackage ./pkgs/node-packages/now { }).package;
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
   rofimoji = pkgs.callPackage ./pkgs/rofimoji { };
+  webtorrent-cli = (pkgs.callPackage ./pkgs/node-packages/webtorrent-cli { }).package;
 }
