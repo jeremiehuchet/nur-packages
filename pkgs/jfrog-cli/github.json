@@ -1,8 +1,8 @@
 {
   "owner": "jfrog",
   "repo": "jfrog-cli",
-  "rev": "5b8873e3887f7d3010421b3960bdf00b7e651552",
-  "sha256": "18bv487gh22bv87kywfa1fph059bq5gdkznn93jvq4z851l53c30",
-  "fetchSubmodules": false,
-  "ref": "v1.39.2"
+  "rev": "4a881171f690d0228c0420180a960a4bbecb604e",
+  "sha256": "0zcc33dwy0v26qpjbxnlv31gap9ygw29jdpp3m6qi3cyv5m5rj0a",
+  "fetchSubmodules": true,
+  "ref": "v1.39.3"
 }
