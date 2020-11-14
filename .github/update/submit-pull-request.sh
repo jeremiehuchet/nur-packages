@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 set -e
 
+source "$TOOLS"
+
 pname=$(basename $1)
 
 if [ -s "$(git diff)" ] ; then
     quit "👌 everything is up to date"
 fi
 
+configure_git
 commit_optional_changes
 git log -5 --oneline --graph --decorate --all
 
