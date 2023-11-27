@@ -1,7 +1,7 @@
 {
-    "owner": "cyr-ius",
-    "repo": "aiosysbus",
-    "rev": "9e2193c0bd1d353545c3238bcd5609b0bc99a9ae",
-    "sha256": "3YHfazxSPb0XS1iNUK19ObBJapBj3h6BNTl3beYJyPs=",
-    "ref": "0.2.1"
+  "owner": "cyr-ius",
+  "repo": "aiosysbus",
+  "rev": "3a0a3e61e5917ad1cb6fa3311df4ca2793709489",
+  "sha256": "YH6kT3mqi8Vm7l9qJd2iMO0M5j+3+QLKkA23ffG1zWw=",
+  "ref": "v0.1.4"
 }
