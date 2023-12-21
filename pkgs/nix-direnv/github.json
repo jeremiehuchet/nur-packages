@@ -1,7 +1,7 @@
 {
   "owner": "nix-community",
   "repo": "nix-direnv",
-  "rev": "169115475ce741cf3443fab79d0a2faa13e9d904",
-  "sha256": "h49uz+/YDRwbusiVx6I3HP9P3UZROIOlwjlYYqRjesE=",
-  "ref": "2.4.0"
+  "rev": "cb88841c3287d852135061a7d56f0bbfb497b260",
+  "sha256": "dwSICqFshBI9/4u40fkEqOuhTndnAx/w88zsnIzEcBk=",
+  "ref": "3.0.3"
 }
