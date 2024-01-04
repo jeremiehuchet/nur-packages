@@ -1,7 +1,7 @@
 {
-    "owner": "jeremiehuchet",
-    "repo": "hass-mqtt-bridge",
-    "rev": "1e21f9ffdd72170b0191826aed3098486c50b288",
-    "hash": "sha256-UqdTmBaGn6Tt1vjd6Qls7ZKjvYA3Ke6Q9sdweG5mLNA=",
-    "ref": "main"
+  "owner": "jeremiehuchet",
+  "repo": "hass-mqtt-bridge",
+  "rev": "21c16ecab020a79a9a0c8f6509dc70f5f2ca9126",
+  "hash": "sha256-2ac7gAeWHPeLMiQglyhGlxv5dwVcbCD/ujv+wCcwgXo=",
+  "ref": "main"
 }
