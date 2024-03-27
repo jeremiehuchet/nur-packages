@@ -8,7 +8,9 @@
 
 { pkgs ? import <nixpkgs> { } }:
 
-{
+let
+  poetry2nix = pkgs.callPackage ./pkgs/poetry2nix { };
+in {
   # The `lib`, `modules`, and `overlay` names are special
   lib = import ./lib { inherit pkgs; }; # functions
   modules = import ./modules; # NixOS modules
@@ -28,7 +30,7 @@
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
   reg = pkgs.callPackage ./pkgs/reg { };
   rofi-bookmarks = pkgs.callPackage ./pkgs/rofi-bookmarks { };
-  rofimoji = pkgs.callPackage ./pkgs/rofimoji { };
+  rofimoji = pkgs.callPackage ./pkgs/rofimoji { inherit poetry2nix; };
   webtorrent-cli =
     pkgs.callPackage ./pkgs/node-packages/webtorrent-cli/fixed.nix { };
   yaml2json = pkgs.callPackage ./pkgs/yaml2json { };

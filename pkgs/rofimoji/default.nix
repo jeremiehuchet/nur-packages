@@ -1,27 +1,14 @@
-{ pkgs, lib, python3Packages, fetchFromGitHub, rofi, xdotool, xsel, fetchpatch}:
-
-with python3Packages;
+{ pkgs, lib, fetchFromGitHub, poetry2nix}:
 
 let
   github = lib.importJSON ./github.json;
-  pyxdg-0_26 = pkgs.callPackage ./pyxdg-0.26.nix {
-    inherit lib buildPythonPackage fetchPypi fetchpatch;
-  };
-in buildPythonApplication rec {
+in poetry2nix.mkPoetryApplication {
   pname = "rofimoji";
   version = github.ref;
 
-  format = "pyproject";
-
-  src = fetchFromGitHub {
+  projectDir = fetchFromGitHub {
     inherit (github) owner repo rev sha256;
   };
-
-  buildInputs = [ setuptools ];
-
-  propagatedBuildInputs = [ pyxdg-0_26 configargparse rofi xdotool xsel ];
-
-  doCheck = false;
 
   meta = with lib; {
     homepage = "https://github.com/fdw/rofimoji";
