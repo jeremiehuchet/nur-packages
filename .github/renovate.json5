@@ -1,0 +1,21 @@
+{
+  enabled: true,
+  enabledManagers: [
+    "custom.regex",
+  ],
+  customManagers: [
+    {
+      customType: "regex",
+      fileMatch: ["/github.json$"],
+      matchStringsStrategy: "combination",
+      matchStrings: [
+        '"(?<datasource>(branch|tag))": "(?<currentValue>.*)"',
+        '"owner": "(?<owner>.*)"',
+        '"repo": "(?<repo>.*)"',
+        '"rev": "(?<currentDigest>.*)"',
+      ],
+      datasourceTemplate: "{{#if (equals datasource 'branch')}}git-refs{{else if (equals datasource 'tag')}}github-tags{{/if}}",
+      depNameTemplate: "{{{owner}}}/{{{repo}}}",
+    },
+  ],
+}
