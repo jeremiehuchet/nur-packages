@@ -1,8 +1,7 @@
 {
   "owner": "ryanchapman",
   "repo": "go-any-proxy",
-  "rev": "21fdb5a3273bdac97adaa565ce667a70781cc69e",
-  "sha256": "IjRcotyh1AMnUmyoEe9f7wRtyydGeifqs0iwPQ7j3wo=",
-  "fetchSubmodules": true,
-  "branch": "master"
+  "rev": "83a788f437481e0b83af1eb2eaba459fd396ee2a",
+  "sha256": "2d7H+bbhPvVgPn0tiC7H9MdrTcF0PN3ETcyGF70CbVQ=",
+  "ref": "v1.0"
 }
