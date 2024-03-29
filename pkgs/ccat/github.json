@@ -1,7 +1,7 @@
 {
-    "owner": "owenthereal",
-    "repo": "ccat",
-    "rev": "aa20cb67b32b262d3ee14ca1239da93b05c9bde9",
-    "sha256": "1mpysig5lvjjjwvs22pz0nj3vh77d77n1l4hch8qmqh5chp3z911",
-    "tag": "v1.0.0"
+  "owner": "owenthereal",
+  "repo": "ccat",
+  "rev": "aa20cb67b32b262d3ee14ca1239da93b05c9bde9",
+  "sha256": "IaQ/LmQF4ooRZJDQYM9p58A9pAX/CqE3l1JuWl7U/tY=",
+  "ref": "v1.1.0"
 }
