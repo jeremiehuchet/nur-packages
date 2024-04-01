@@ -3,9 +3,9 @@
 let github = lib.importJSON ./github.json;
 in stdenvNoCC.mkDerivation {
   pname = "pyrandr";
-  version = github.ref;
+  version = github.version;
 
-  src = fetchFromGitHub { inherit (github) owner repo rev sha256; };
+  src = fetchFromGitHub { inherit (github) owner repo rev hash; };
 
   buildInputs = [ python3 xrandr ];
 

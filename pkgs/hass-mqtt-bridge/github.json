@@ -1,7 +1,8 @@
 {
+  "renovate:datasource": "git-refs",
   "owner": "jeremiehuchet",
   "repo": "hass-mqtt-bridge",
+  "version": "main",
   "rev": "21c16ecab020a79a9a0c8f6509dc70f5f2ca9126",
-  "hash": "sha256-2ac7gAeWHPeLMiQglyhGlxv5dwVcbCD/ujv+wCcwgXo=",
-  "ref": "main"
+  "hash": "sha256-2ac7gAeWHPeLMiQglyhGlxv5dwVcbCD/ujv+wCcwgXo="
 }

@@ -1,7 +1,8 @@
 {
+  "renovate:datasource": "git-refs",
   "owner": "jeremiehuchet",
   "repo": "hass-mqtt-autodiscovery-rs",
+  "version": "main",
   "rev": "79b396a5b1316e27477485cd88f62382f9f6cb1b",
-  "sha256": "wRBjHY9ckFVp4PZUide0PnzAyv02DdB+ozlHj1OTt/U=",
-  "ref": "main"
+  "hash": "sha256-wRBjHY9ckFVp4PZUide0PnzAyv02DdB+ozlHj1OTt/U="
 }

@@ -3,16 +3,16 @@
 let github = lib.importJSON ./github.json;
 in buildGoPackage {
   pname = "any-proxy";
-  version = github.ref;
+  version = github.version;
   goPackagePath = "github.com/ryanchapman/go-any-proxy";
-  src = fetchFromGitHub { inherit (github) owner repo rev sha256; };
+  src = fetchFromGitHub { inherit (github) owner repo rev hash; };
   goDeps = ./godeps.nix;
   preConfigure = ''
     patch < ${./rename-defaults-files.patch}
     cat <<EOF > version.go
     package main
     const BUILDTIMESTAMP = 0
-    const BUILDUSER      = "${github.ref}"
+    const BUILDUSER      = "${github.version}"
     const BUILDHOST      = "${github.rev}"
     EOF
   '';

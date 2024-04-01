@@ -4,10 +4,10 @@ let
   github = lib.importJSON ./github.json;
 in poetry2nix.mkPoetryApplication {
   pname = "rofimoji";
-  version = github.ref;
+  version = github.version;
 
   projectDir = fetchFromGitHub {
-    inherit (github) owner repo rev sha256;
+    inherit (github) owner repo rev hash;
   };
 
   meta = with lib; {

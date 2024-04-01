@@ -14,7 +14,6 @@
 # package.json:
 #     {
 #       "name": "node-app",
-#       "version": "1.0.0",
 #       "dependencies": {
 #         "node-app": "1.0.0"
 #       }
@@ -23,7 +22,6 @@
 # So node2nix generated someting like:
 #     {
 #       "name": "node-app",
-#       "version": "1.0.0",
 #       "dependencies": {
 #         "node-app": "1.0.0",
 #         "transitive-dep-a": "2.1.0",
@@ -34,7 +32,6 @@
 # But we are turning the result in:
 #     {
 #       "name": "node-app",
-#       "version": "1.0.0",
 #       // src = fetched node module "node-app": "1.0.0"
 #       "dependencies": {
 #         "transitive-dep-a": "2.1.0",
@@ -42,10 +39,13 @@
 #       }
 #     }
 let
+  nodePackage = lib.importJSON ./package.json;
+  name = nodePackage.name;
+  version = nodePackage.dependencies."${name}";
+  fullname = "${name}-${version}";
   original = import ./default.nix { inherit pkgs system; };
-  name = "${original.args.name}-${original.args.version}";
-  renamedpkg = original.package.overrideAttrs (old: { inherit name; });
-  selfpkg = original.sources.${name};
+  renamedpkg = original.package.overrideAttrs (old: { inherit fullname; });
+  selfpkg = original.sources.${fullname};
   requireNativeNodeGypBuild =
     lib.any (dep: dep.name == "node-gyp-build") original.args.dependencies;
 in renamedpkg.override {

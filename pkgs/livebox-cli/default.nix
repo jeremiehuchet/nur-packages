@@ -4,9 +4,9 @@ let
   github = lib.importJSON ./github.json;
 in rustPlatform.buildRustPackage {
   pname = "livebox-cli";
-  version = github.ref;
+  version = github.version;
 
-  src = fetchFromGitHub { inherit (github) owner repo rev sha256; };
+  src = fetchFromGitHub { inherit (github) owner repo rev hash; };
 
   cargoSha256 = "G61z7jgPRjmnfn7TEh9k2nMIFFU5GDpcfUbdiKGvkE4=";
 

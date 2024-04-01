@@ -76,13 +76,13 @@ let
         sha512 = "1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==";
       };
     };
-    "agent-base-7.1.0" = {
+    "agent-base-7.1.1" = {
       name = "agent-base";
       packageName = "agent-base";
-      version = "7.1.0";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agent-base/-/agent-base-7.1.0.tgz";
-        sha512 = "o/zjMZRhJxny7OyEF+Op8X+efiELC7k7yOjMzgfzVqOzXqkBkWI79YoTdOtsuWd5BWhAGAuOY/Xa6xpiaWXiNg==";
+        url = "https://registry.npmjs.org/agent-base/-/agent-base-7.1.1.tgz";
+        sha512 = "H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==";
       };
     };
     "ajv-8.12.0" = {
@@ -121,13 +121,13 @@ let
         sha512 = "gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==";
       };
     };
-    "ansi-escapes-6.2.0" = {
+    "ansi-escapes-6.2.1" = {
       name = "ansi-escapes";
       packageName = "ansi-escapes";
-      version = "6.2.0";
+      version = "6.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-6.2.0.tgz";
-        sha512 = "kzRaCqXnpzWs+3z5ABPQiVke+iq0KXkHo8xiWV4RPTi5Yli0l97BEQuhXV1s7+aSU/fu1kUuxgS4MsQ0fRuygw==";
+        url = "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-6.2.1.tgz";
+        sha512 = "4nJ3yixlEthEJ9Rk4vPcdBRkZvQZlYyu8j4/Mqz5sgIkddmEnH2Yj2ZrnP9S3tQOvSNRUIgVNF/1yPpRAGNRig==";
       };
     };
     "ansi-regex-5.0.1" = {
@@ -787,13 +787,13 @@ let
         sha512 = "BzUrJBS9EcUb4cFol8r4W3v1cPsSyajLSthNkz5BxbpDcHN5tIrM10E2eNvfnvBn3DaT3DUgx0OpsBKkaOpanw==";
       };
     };
-    "gitmoji-cli-9.2.0" = {
+    "gitmoji-cli-9.1.0" = {
       name = "gitmoji-cli";
       packageName = "gitmoji-cli";
-      version = "9.2.0";
+      version = "9.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.2.0.tgz";
-        sha512 = "U/uKNO+Z4tcFdP5Ip2FBihsGgTvyX8RJVx4twgnv6JB+MKcvqjIE2RiJvxE2uu7dq4wafTzGDpHL3KDiJV1hxQ==";
+        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.1.0.tgz";
+        sha512 = "/pzhoYW1O+PU3GoZfFfsVng8oTYsIPzeb/YDx8/NLbQCzFAAdQ+zLSVya3PPPP9PoMCerilYkma/gpkN/FSk+A==";
       };
     };
     "global-dirs-3.0.1" = {
@@ -994,13 +994,13 @@ let
         sha512 = "7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==";
       };
     };
-    "inquirer-9.2.16" = {
+    "inquirer-9.2.17" = {
       name = "inquirer";
       packageName = "inquirer";
-      version = "9.2.16";
+      version = "9.2.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/inquirer/-/inquirer-9.2.16.tgz";
-        sha512 = "qzgbB+yNjgSzk2omeqMDtO9IgJet/UL67luT1MaaggRpGK73DBQct5Q4pipwFQcIKK1GbMODYd4UfsRCkSP1DA==";
+        url = "https://registry.npmjs.org/inquirer/-/inquirer-9.2.17.tgz";
+        sha512 = "Vr3Ia2ud5sGnioURkE69endl4SkeJcMzTF6SosKcX5GALJfId7C+JvO5ZZb6y1LOXnEofCPbwzoQ1q0e8Gaduw==";
       };
     };
     "inquirer-autocomplete-prompt-3.0.1" = {
@@ -1264,13 +1264,13 @@ let
         sha512 = "jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==";
       };
     };
-    "meow-13.2.0" = {
+    "meow-12.1.1" = {
       name = "meow";
       packageName = "meow";
-      version = "13.2.0";
+      version = "12.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/meow/-/meow-13.2.0.tgz";
-        sha512 = "pxQJQzB6djGPXh08dacEloMFopsOqGVRKFPYvPOt9XDZ1HasbgDZA74CJGreSU4G3Ak7EFJGoiH2auq+yXISgA==";
+        url = "https://registry.npmjs.org/meow/-/meow-12.1.1.tgz";
+        sha512 = "BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==";
       };
     };
     "merge-stream-2.0.0" = {
@@ -1768,13 +1768,13 @@ let
         sha512 = "B6w7tkwNid7ToxjZ08rQMT8M9BJAf8DKx8Ft4NivzH0zBUfd6jldGcisJn/RLgxcX3FPNDdNQCUEMMT79b+oCQ==";
       };
     };
-    "socks-proxy-agent-8.0.2" = {
+    "socks-proxy-agent-8.0.3" = {
       name = "socks-proxy-agent";
       packageName = "socks-proxy-agent";
-      version = "8.0.2";
+      version = "8.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.2.tgz";
-        sha512 = "8zuqoLv1aP/66PHF5TqwJ7Czm3Yv32urJQHrVyhD7mmA6d61Zv8cIXQYPTWwmg6qlupnPvs/QKDmfa4P/qct2g==";
+        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.3.tgz";
+        sha512 = "VNegTZKhuGq5vSD6XNKlbqWhyt/40CgoEw8XxD6dhnm8Jq9IEa3nIa4HwnM8XOqU0CdB0BwWVXusqiFXfHB3+A==";
       };
     };
     "sprintf-js-1.1.3" = {
@@ -2105,7 +2105,6 @@ let
   args = {
     name = "gitmoji-cli";
     packageName = "gitmoji-cli";
-    version = "9.2.0";
     src = ./.;
     dependencies = [
       sources."@ljharb/through-2.3.13"
@@ -2120,7 +2119,7 @@ let
       sources."@szmarczak/http-timer-5.0.1"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
       sources."@types/http-cache-semantics-4.0.4"
-      sources."agent-base-7.1.0"
+      sources."agent-base-7.1.1"
       sources."ajv-8.12.0"
       sources."ajv-formats-2.1.1"
       sources."ansi-align-3.0.1"
@@ -2225,7 +2224,7 @@ let
           sources."data-uri-to-buffer-6.0.2"
         ];
       })
-      sources."gitmoji-cli-9.2.0"
+      sources."gitmoji-cli-9.1.0"
       sources."global-dirs-3.0.1"
       sources."gopd-1.0.1"
       (sources."got-12.6.1" // {
@@ -2250,7 +2249,7 @@ let
       sources."imurmurhash-0.1.4"
       sources."inherits-2.0.4"
       sources."ini-2.0.0"
-      (sources."inquirer-9.2.16" // {
+      (sources."inquirer-9.2.17" // {
         dependencies = [
           (sources."ora-5.4.1" // {
             dependencies = [
@@ -2261,7 +2260,7 @@ let
       })
       (sources."inquirer-autocomplete-prompt-3.0.1" // {
         dependencies = [
-          sources."ansi-escapes-6.2.0"
+          sources."ansi-escapes-6.2.1"
           sources."escape-string-regexp-5.0.0"
           sources."figures-5.0.0"
           sources."is-unicode-supported-1.3.0"
@@ -2295,7 +2294,7 @@ let
       })
       sources."lowercase-keys-3.0.0"
       sources."lru-cache-6.0.0"
-      sources."meow-13.2.0"
+      sources."meow-12.1.1"
       sources."merge-stream-2.0.0"
       sources."mimic-fn-4.0.0"
       sources."mimic-response-4.0.0"
@@ -2380,7 +2379,7 @@ let
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
       sources."socks-2.8.1"
-      sources."socks-proxy-agent-8.0.2"
+      sources."socks-proxy-agent-8.0.3"
       sources."sprintf-js-1.1.3"
       sources."stdin-discarder-0.2.2"
       sources."string-width-4.2.3"

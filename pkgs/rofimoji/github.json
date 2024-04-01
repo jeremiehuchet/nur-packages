@@ -1,7 +1,8 @@
 {
+  "renovate:datasource": "github-tags",
   "owner": "fdw",
   "repo": "rofimoji",
+  "version": "6.2.0",
   "rev": "80e72db9d6813a7edc154ff827595a8ae0fa9307",
-  "sha256": "9P9hXBEfq6sqCvb2SfPBNadEoXAdWF3cmcKGEOK+EHE=",
-  "ref": "6.2.0"
+  "hash": "sha256-9P9hXBEfq6sqCvb2SfPBNadEoXAdWF3cmcKGEOK+EHE="
 }

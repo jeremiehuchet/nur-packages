@@ -2,6 +2,6 @@
 
 let github = lib.importJSON ./github.json;
 in fetchFromGitHub {
-  name = "notracking-${github.ref}";
-  inherit (github) owner repo rev sha256;
+  name = "notracking-${github.version}";
+  inherit (github) owner repo rev hash;
 }

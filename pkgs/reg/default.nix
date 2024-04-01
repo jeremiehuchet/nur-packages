@@ -2,7 +2,7 @@
 
 let
   github = lib.importJSON ./github-release-assets.json;
-  version = lib.strings.removePrefix "v" github.ref;
+  version = lib.strings.removePrefix "v" github.version;
 in stdenvNoCC.mkDerivation {
   pname = "reg-cli";
   inherit version;
@@ -13,10 +13,18 @@ in stdenvNoCC.mkDerivation {
       x86_64-darwin = "darwin-amd64";
     }.${stdenvNoCC.hostPlatform.system} or (throw
       "unsupported system ${stdenvNoCC.hostPlatform.system}");
+    checksum = fetchurl {
+      url = github.assets."reg-${platformName}.sha256".url;
+      hash = github.assets."reg-${platformName}.sha256".hash;
+    };
   in fetchurl {
-    name = "reg-${version}-${stdenvNoCC.hostPlatform.system}";
     url = github.assets."reg-${platformName}".url;
     hash = github.assets."reg-${platformName}".hash;
+    postFetch = ''
+      # remove hardcoded path in checksum file
+      cat ${checksum} | sed -E "s|^(\S+) .*|\1 $out|g" > checksum.txt
+      sha256sum --check checksum.txt
+    '';
   };
 
   dontUnpack = true;

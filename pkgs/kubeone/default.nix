@@ -2,7 +2,7 @@
 
 let
   github = lib.importJSON ./github-release-assets.json;
-  version = lib.strings.removePrefix "v" github.ref;
+  version = lib.strings.removePrefix "v" github.version;
 in stdenvNoCC.mkDerivation {
   pname = "kubeone";
   inherit version;
@@ -11,12 +11,21 @@ in stdenvNoCC.mkDerivation {
     platformName = {
       x86_64-linux = "linux_amd64";
       x86_64-darwin = "darwin_amd64";
-    }.${stdenvNoCC.hostPlatform.system} or (throw
-      "unsupported system ${stdenvNoCC.hostPlatform.system}");
+    }.${stdenvNoCC.hostPlatform.system} or (throw "unsupported system ${stdenvNoCC.hostPlatform.system}");
+    checksums = fetchurl {
+      name = "kubeone-${version}_checksums.txt";
+      url = github.assets."kubeone_${version}_checksums.txt".url;
+      hash = github.assets."kubeone_${version}_checksums.txt".hash;
+    };
   in fetchurl {
-    name = "kubeone-${version}-${stdenvNoCC.hostPlatform.system}.zip";
     url = github.assets."kubeone_${version}_${platformName}.zip".url;
     hash = github.assets."kubeone_${version}_${platformName}.zip".hash;
+    downloadToTemp = true;
+    postFetch = ''
+      cp $downloadedFile $name
+      sha256sum --check --ignore-missing ${checksums}
+      cp $name $out
+    '';
   };
 
   buildInputs = [ unzip ];

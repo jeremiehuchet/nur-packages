@@ -1,7 +1,8 @@
 {
+  "renovate:datasource": "git-refs",
   "owner": "notracking",
   "repo": "hosts-blocklists",
+  "version": "master",
   "rev": "2ab426e806985d0d3d1c3eb447d7e772a836e10d",
-  "sha256": "nKNz9ux1FPxoL14VZtH/1tfnn67LeXmdVQJz7I9+Srk=",
-  "ref": "master"
+  "hash": "sha256-nKNz9ux1FPxoL14VZtH/1tfnn67LeXmdVQJz7I9+Srk="
 }

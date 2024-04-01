@@ -22,13 +22,13 @@ let
         sha512 = "XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==";
       };
     };
-    "@types/node-20.4.4" = {
+    "@types/node-20.12.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.4";
+      version = "20.12.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.4.tgz";
-        sha512 = "CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.2.tgz";
+        sha512 = "zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==";
       };
     };
     "@vercel/build-utils-2.6.1-canary.0" = {
@@ -796,6 +796,15 @@ let
         sha512 = "D/wqnB2xzNFIcoBG9FG8cXRDjiqSTbG2wd8DMZeQyJlP1vfTkIxH4GKveWaEBYySKIg+USu+E+EDIR47SqnaMQ==";
       };
     };
+    "undici-types-5.26.5" = {
+      name = "undici-types";
+      packageName = "undici-types";
+      version = "5.26.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz";
+        sha512 = "JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==";
+      };
+    };
     "unique-string-2.0.0" = {
       name = "unique-string";
       packageName = "unique-string";
@@ -872,12 +881,11 @@ let
   args = {
     name = "now";
     packageName = "now";
-    version = "21.0.1";
     src = ./.;
     dependencies = [
       sources."@sindresorhus/is-0.14.0"
       sources."@szmarczak/http-timer-1.1.2"
-      sources."@types/node-20.4.4"
+      sources."@types/node-20.12.2"
       sources."@vercel/build-utils-2.6.1-canary.0"
       sources."@vercel/go-1.1.6"
       sources."@vercel/node-1.8.5"
@@ -966,6 +974,7 @@ let
       sources."type-fest-0.8.1"
       sources."typedarray-to-buffer-3.1.5"
       sources."typescript-3.9.3"
+      sources."undici-types-5.26.5"
       sources."unique-string-2.0.0"
       sources."update-notifier-4.1.0"
       sources."url-parse-lax-3.0.0"

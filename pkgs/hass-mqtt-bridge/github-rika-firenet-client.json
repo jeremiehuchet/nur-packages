@@ -1,7 +1,8 @@
 {
+  "renovate:datasource": "git-refs",
   "owner": "jeremiehuchet",
   "repo": "rika-firenet-api-rs",
+  "version": "main",
   "rev": "d6d233f8bf102eee8e366ce76372b12448fbb32e",
-  "sha256": "t5Bhhj4Jdd/6qi6e3DBsp/QvSlDNVAcQIK3I6c7e3d0=",
-  "ref": "main"
+  "hash": "sha256-t5Bhhj4Jdd/6qi6e3DBsp/QvSlDNVAcQIK3I6c7e3d0="
 }
