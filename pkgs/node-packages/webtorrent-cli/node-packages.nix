@@ -1660,13 +1660,13 @@ let
         sha512 = "N+hRuVctWviTAYem/sI6tuFP2J/Rn3/ETEh++7GnJv6Oro49kDjcPuz1W6s+vfS65xKr3Eh4HMuxf3hH82LGfg==";
       };
     };
-    "webtorrent-cli-4.0.0" = {
+    "webtorrent-cli-4.0.4" = {
       name = "webtorrent-cli";
       packageName = "webtorrent-cli";
-      version = "4.0.0";
+      version = "4.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-4.0.0.tgz";
-        sha512 = "WFs8PWeUO3ck41NVy/fBNiWcmtyrvIanwdZguh2V8Gn27VZSfzcuazFWsbW+t5oNTFk9ToMwD5+PhV7ImzS07Q==";
+        url = "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-4.0.4.tgz";
+        sha512 = "uamNZvqmpk1NpK+Vk/L8hppxq/7n8qtD+pQKia9pkXIAGqOGDA65ql9hx6g8rA2tM7cKDNkJhtxxF9ibJsyveQ==";
       };
     };
     "winreg-1.2.5" = {
@@ -1839,7 +1839,11 @@ let
           sources."mime-1.6.0"
         ];
       })
-      sources."ecstatic-4.1.4"
+      (sources."ecstatic-4.1.4" // {
+        dependencies = [
+          sources."mime-2.6.0"
+        ];
+      })
       sources."ee-first-1.1.1"
       sources."elementtree-0.1.7"
       sources."emoji-regex-8.0.0"
@@ -1905,7 +1909,7 @@ let
         ];
       })
       sources."memory-chunk-store-1.3.5"
-      sources."mime-2.6.0"
+      sources."mime-3.0.0"
       sources."mimic-response-1.0.1"
       sources."minimist-1.2.8"
       sources."mkdirp-classic-0.5.3"
@@ -2030,13 +2034,12 @@ let
         dependencies = [
           sources."debug-4.3.4"
           sources."decompress-response-6.0.0"
-          sources."mime-3.0.0"
           sources."mimic-response-3.1.0"
           sources."ms-2.1.2"
           sources."simple-get-4.0.1"
         ];
       })
-      sources."webtorrent-cli-4.0.0"
+      sources."webtorrent-cli-4.0.4"
       sources."winreg-1.2.5"
       sources."wrap-ansi-7.0.0"
       sources."wrappy-1.0.2"
