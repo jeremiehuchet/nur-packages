@@ -1,6 +1,6 @@
 {
   "name": "now",
   "dependencies": {
-    "now": "21.0.1"
+    "now": "21.0.0"
   }
 }
