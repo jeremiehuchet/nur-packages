@@ -787,13 +787,13 @@ let
         sha512 = "BzUrJBS9EcUb4cFol8r4W3v1cPsSyajLSthNkz5BxbpDcHN5tIrM10E2eNvfnvBn3DaT3DUgx0OpsBKkaOpanw==";
       };
     };
-    "gitmoji-cli-9.1.0" = {
+    "gitmoji-cli-9.2.0" = {
       name = "gitmoji-cli";
       packageName = "gitmoji-cli";
-      version = "9.1.0";
+      version = "9.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.1.0.tgz";
-        sha512 = "/pzhoYW1O+PU3GoZfFfsVng8oTYsIPzeb/YDx8/NLbQCzFAAdQ+zLSVya3PPPP9PoMCerilYkma/gpkN/FSk+A==";
+        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.2.0.tgz";
+        sha512 = "U/uKNO+Z4tcFdP5Ip2FBihsGgTvyX8RJVx4twgnv6JB+MKcvqjIE2RiJvxE2uu7dq4wafTzGDpHL3KDiJV1hxQ==";
       };
     };
     "global-dirs-3.0.1" = {
@@ -1264,13 +1264,13 @@ let
         sha512 = "jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==";
       };
     };
-    "meow-12.1.1" = {
+    "meow-13.2.0" = {
       name = "meow";
       packageName = "meow";
-      version = "12.1.1";
+      version = "13.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/meow/-/meow-12.1.1.tgz";
-        sha512 = "BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==";
+        url = "https://registry.npmjs.org/meow/-/meow-13.2.0.tgz";
+        sha512 = "pxQJQzB6djGPXh08dacEloMFopsOqGVRKFPYvPOt9XDZ1HasbgDZA74CJGreSU4G3Ak7EFJGoiH2auq+yXISgA==";
       };
     };
     "merge-stream-2.0.0" = {
@@ -2224,7 +2224,7 @@ let
           sources."data-uri-to-buffer-6.0.2"
         ];
       })
-      sources."gitmoji-cli-9.1.0"
+      sources."gitmoji-cli-9.2.0"
       sources."global-dirs-3.0.1"
       sources."gopd-1.0.1"
       (sources."got-12.6.1" // {
@@ -2294,7 +2294,7 @@ let
       })
       sources."lowercase-keys-3.0.0"
       sources."lru-cache-6.0.0"
-      sources."meow-12.1.1"
+      sources."meow-13.2.0"
       sources."merge-stream-2.0.0"
       sources."mimic-fn-4.0.0"
       sources."mimic-response-4.0.0"
