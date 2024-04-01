@@ -2,7 +2,7 @@
   "renovate:datasource": "github-tags",
   "owner": "owenthereal",
   "repo": "ccat",
-  "version": "v1.0.0",
-  "rev": "0683e075780468db1f2ece8a958183c357fdd75a",
-  "hash": "sha256-dfN3QY9a2zSGtWJFZOVLGUWvQQ1tGnWWQDaWlAgZUpk="
+  "version": "v1.1.0",
+  "rev": "aa20cb67b32b262d3ee14ca1239da93b05c9bde9",
+  "hash": "sha256-IaQ/LmQF4ooRZJDQYM9p58A9pAX/CqE3l1JuWl7U/tY="
 }
