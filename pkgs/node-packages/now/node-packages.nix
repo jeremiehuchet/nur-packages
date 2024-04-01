@@ -562,13 +562,13 @@ let
         sha512 = "9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==";
       };
     };
-    "now-21.0.0" = {
+    "now-21.0.1" = {
       name = "now";
       packageName = "now";
-      version = "21.0.0";
+      version = "21.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/now/-/now-21.0.0.tgz";
-        sha512 = "Fx0OUvMItg/UR+/sVnXq1Nqd+AQ0VFXGws0BXdSZvT+Nah6lN0lqYbDrmxEpK+CU+aZrrp+1isHqh/lSY2DdGA==";
+        url = "https://registry.npmjs.org/now/-/now-21.0.1.tgz";
+        sha512 = "5QlbhlL7NkNCYQqUgRpAnXMWyRyMZhsI2hQ7PzWfUrkSazG2RWFmXYRWbU7rAZcpB++Xt5vglqWma9LAGDPGhg==";
       };
     };
     "once-1.4.0" = {
@@ -948,7 +948,7 @@ let
       sources."mimic-response-1.0.1"
       sources."minimist-1.2.8"
       sources."normalize-url-4.5.1"
-      sources."now-21.0.0"
+      sources."now-21.0.1"
       sources."once-1.4.0"
       sources."p-cancelable-1.1.0"
       sources."package-json-6.5.0"
