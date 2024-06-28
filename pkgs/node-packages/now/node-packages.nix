@@ -22,13 +22,13 @@ let
         sha512 = "XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==";
       };
     };
-    "@types/node-20.12.2" = {
+    "@types/node-20.14.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.2";
+      version = "20.14.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.2.tgz";
-        sha512 = "zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.9.tgz";
+        sha512 = "06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==";
       };
     };
     "@vercel/build-utils-2.6.1-canary.0" = {
@@ -562,15 +562,6 @@ let
         sha512 = "9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==";
       };
     };
-    "now-21.0.1" = {
-      name = "now";
-      packageName = "now";
-      version = "21.0.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/now/-/now-21.0.1.tgz";
-        sha512 = "5QlbhlL7NkNCYQqUgRpAnXMWyRyMZhsI2hQ7PzWfUrkSazG2RWFmXYRWbU7rAZcpB++Xt5vglqWma9LAGDPGhg==";
-      };
-    };
     "once-1.4.0" = {
       name = "once";
       packageName = "once";
@@ -832,6 +823,15 @@ let
         sha512 = "NjFKA0DidqPa5ciFcSrXnAltTtzz84ogy+NebPvfEgAck0+TNg4UJ4IN+fB7zRZfbgUf0syOo9MDxFkDSMuFaQ==";
       };
     };
+    "vercel-21.0.0" = {
+      name = "vercel";
+      packageName = "vercel";
+      version = "21.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vercel/-/vercel-21.0.0.tgz";
+        sha512 = "xe0rc9Fj+CgT226TAgN0YVMgiHvs6QsPzIR6K5m2Dqc8aQjueaM0a4aTHxPErQAS6h32O7TC0QtTyyEwBtVGNw==";
+      };
+    };
     "widest-line-3.1.0" = {
       name = "widest-line";
       packageName = "widest-line";
@@ -885,7 +885,7 @@ let
     dependencies = [
       sources."@sindresorhus/is-0.14.0"
       sources."@szmarczak/http-timer-1.1.2"
-      sources."@types/node-20.12.2"
+      sources."@types/node-20.14.9"
       sources."@vercel/build-utils-2.6.1-canary.0"
       sources."@vercel/go-1.1.6"
       sources."@vercel/node-1.8.5"
@@ -948,7 +948,6 @@ let
       sources."mimic-response-1.0.1"
       sources."minimist-1.2.8"
       sources."normalize-url-4.5.1"
-      sources."now-21.0.1"
       sources."once-1.4.0"
       sources."p-cancelable-1.1.0"
       sources."package-json-6.5.0"
@@ -978,6 +977,7 @@ let
       sources."unique-string-2.0.0"
       sources."update-notifier-4.1.0"
       sources."url-parse-lax-3.0.0"
+      sources."vercel-21.0.0"
       sources."widest-line-3.1.0"
       sources."wrappy-1.0.2"
       sources."write-file-atomic-3.0.3"
