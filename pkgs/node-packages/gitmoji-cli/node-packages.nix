@@ -778,13 +778,13 @@ let
         sha512 = "BzUrJBS9EcUb4cFol8r4W3v1cPsSyajLSthNkz5BxbpDcHN5tIrM10E2eNvfnvBn3DaT3DUgx0OpsBKkaOpanw==";
       };
     };
-    "gitmoji-cli-9.3.0" = {
+    "gitmoji-cli-9.4.0" = {
       name = "gitmoji-cli";
       packageName = "gitmoji-cli";
-      version = "9.3.0";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.3.0.tgz";
-        sha512 = "2xcKjlH2rVRwx17RrX0mwOqQRqIrFHKv+0JFKat74r3y6TRrdMoSwH3yzz+ho23fc0kPryAbt3JE5op3v/fYrA==";
+        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.4.0.tgz";
+        sha512 = "yqiYRSN0PEI8v9EJXn/euL+9keVpcvlCo87yc+M1m3zhP666oQ5/Ee0SdrexqAVmF5b/ZLsIaAntxB85Dt6H7g==";
       };
     };
     "global-dirs-3.0.1" = {
@@ -904,13 +904,13 @@ let
         sha512 = "V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==";
       };
     };
-    "https-proxy-agent-7.0.4" = {
+    "https-proxy-agent-7.0.5" = {
       name = "https-proxy-agent";
       packageName = "https-proxy-agent";
-      version = "7.0.4";
+      version = "7.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.4.tgz";
-        sha512 = "wlwpilI7YdjSkWaQ/7omYBMTliDcmCN8OLihO6I9B86g06lMyAoqgoDpV0XqoaPOKj+0DIdAvnsWfyAAhmimcg==";
+        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.5.tgz";
+        sha512 = "1e4Wqeblerz+tMKPIq2EMGiiWW1dIjZOksyHWSUm1rmuvw/how9hBHZ38lAGj5ID4Ik6EdkOw7NmWPy6LAwalw==";
       };
     };
     "human-signals-5.0.0" = {
@@ -1426,13 +1426,13 @@ let
         sha512 = "mlVgR3PGuzlo0MmTdk4cXqXWlwQDLnONTAg6sm62XkMJEiRxN3GL3SffkYvqwonbkJBcrI7Uvv5Zh9yjvn2iUw==";
       };
     };
-    "pac-proxy-agent-7.0.1" = {
+    "pac-proxy-agent-7.0.2" = {
       name = "pac-proxy-agent";
       packageName = "pac-proxy-agent";
-      version = "7.0.1";
+      version = "7.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-7.0.1.tgz";
-        sha512 = "ASV8yU4LLKBAjqIPMbrgtaKIvxQri/yh2OpI+S6hVa9JRkUI3Y3NPFbfngDtY7oFtSMD3w31Xns89mDa3Feo5A==";
+        url = "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-7.0.2.tgz";
+        sha512 = "BFi3vZnO9X5Qt6NRz7ZOaPja3ic0PhlsmCRYLOpN11+mWBCR6XJDqW5RF3j8jm4WGGQZtBA+bTfxYzeKW73eHg==";
       };
     };
     "pac-resolver-7.0.1" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==";
       };
     };
-    "socks-proxy-agent-8.0.3" = {
+    "socks-proxy-agent-8.0.4" = {
       name = "socks-proxy-agent";
       packageName = "socks-proxy-agent";
-      version = "8.0.3";
+      version = "8.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.3.tgz";
-        sha512 = "VNegTZKhuGq5vSD6XNKlbqWhyt/40CgoEw8XxD6dhnm8Jq9IEa3nIa4HwnM8XOqU0CdB0BwWVXusqiFXfHB3+A==";
+        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.4.tgz";
+        sha512 = "GNAq/eg8Udq2x0eNiFkr9gRg5bA7PXEWagQdeRX4cPSG+X/8V38v637gim9bjFptMk1QWsCTr0ttrJEiXbNnRw==";
       };
     };
     "sprintf-js-1.1.3" = {
@@ -1795,13 +1795,13 @@ let
         sha512 = "HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==";
       };
     };
-    "string-width-7.1.0" = {
+    "string-width-7.2.0" = {
       name = "string-width";
       packageName = "string-width";
-      version = "7.1.0";
+      version = "7.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string-width/-/string-width-7.1.0.tgz";
-        sha512 = "SEIJCWiX7Kg4c129n48aDRwLbFb2LJmXXFrWBG4NGaRtMQ3myKPKbwrD1BKqQn74oCoNMBVrfDEr5M9YxCsrkw==";
+        url = "https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz";
+        sha512 = "tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==";
       };
     };
     "string_decoder-1.3.0" = {
@@ -2011,13 +2011,13 @@ let
         sha512 = "d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==";
       };
     };
-    "when-exit-2.1.2" = {
+    "when-exit-2.1.3" = {
       name = "when-exit";
       packageName = "when-exit";
-      version = "2.1.2";
+      version = "2.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/when-exit/-/when-exit-2.1.2.tgz";
-        sha512 = "u9J+toaf3CCxCAzM/484qNAxQE75rFdVgiFEEV8Xps2gzYhf0tx73s1WXDQhkwV17E3MxRMz40m7Ekd2/121Lg==";
+        url = "https://registry.npmjs.org/when-exit/-/when-exit-2.1.3.tgz";
+        sha512 = "uVieSTccFIr/SFQdFWN/fFaQYmV37OKtuaGphMAzi4DmmUlrvRBJW5WSLkHyjNQY/ePJMz3LoiX9R3yy1Su6Hw==";
       };
     };
     "which-2.0.2" = {
@@ -2202,7 +2202,7 @@ let
           sources."data-uri-to-buffer-6.0.2"
         ];
       })
-      sources."gitmoji-cli-9.3.0"
+      sources."gitmoji-cli-9.4.0"
       sources."global-dirs-3.0.1"
       sources."gopd-1.0.1"
       (sources."got-12.6.1" // {
@@ -2219,7 +2219,7 @@ let
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-7.0.2"
       sources."http2-wrapper-2.2.1"
-      sources."https-proxy-agent-7.0.4"
+      sources."https-proxy-agent-7.0.5"
       sources."human-signals-5.0.0"
       sources."iconv-lite-0.4.24"
       sources."ieee754-1.2.1"
@@ -2302,13 +2302,13 @@ let
           sources."onetime-5.1.2"
           sources."restore-cursor-4.0.0"
           sources."signal-exit-3.0.7"
-          sources."string-width-7.1.0"
+          sources."string-width-7.2.0"
           sources."strip-ansi-7.1.0"
         ];
       })
       sources."os-tmpdir-1.0.2"
       sources."p-cancelable-3.0.0"
-      sources."pac-proxy-agent-7.0.1"
+      sources."pac-proxy-agent-7.0.2"
       sources."pac-resolver-7.0.1"
       sources."package-json-8.1.1"
       sources."path-exists-5.0.0"
@@ -2350,7 +2350,7 @@ let
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
       sources."socks-2.8.3"
-      sources."socks-proxy-agent-8.0.3"
+      sources."socks-proxy-agent-8.0.4"
       sources."sprintf-js-1.1.3"
       sources."stdin-discarder-0.2.2"
       sources."string-width-4.2.3"
@@ -2373,7 +2373,7 @@ let
       sources."validator-13.12.0"
       sources."wcwidth-1.0.1"
       sources."web-streams-polyfill-3.3.3"
-      sources."when-exit-2.1.2"
+      sources."when-exit-2.1.3"
       sources."which-2.0.2"
       (sources."widest-line-4.0.1" // {
         dependencies = [
