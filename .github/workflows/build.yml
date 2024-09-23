@@ -34,7 +34,7 @@ jobs:
           - jeremiehuchet
         nixPath:
           - nixpkgs=channel:nixos-24.05
-          - nixpkgs=channel:nixos-unstable
+          #- nixpkgs=channel:nixos-unstable
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
