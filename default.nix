@@ -28,7 +28,6 @@ in {
   nix-direnv = pkgs.callPackage ./pkgs/nix-direnv { };
   networkmanager-ssh = pkgs.callPackage ./pkgs/networkmanager-ssh { };
   notracking = pkgs.callPackage ./pkgs/notracking { };
-  now = pkgs.callPackage ./pkgs/node-packages/now/fixed.nix { };
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
   reg = pkgs.callPackage ./pkgs/reg { };
   rofi-bookmarks = pkgs.callPackage ./pkgs/rofi-bookmarks { };

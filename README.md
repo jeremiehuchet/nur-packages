@@ -27,8 +27,6 @@ Some nixos packages automatically updated.
 
 **[notracking](pkgs/notracking)** is a dns filter list for blocking ads.
 
-**[now](pkgs/node-packages/now/fixed.nix)** CLI for now.sh.
-
 **[pyrandr](pkgs/pyrandr)** is wrapper for xrandr aims to provide a simpler CLI.
 
 **[reg](pkgs/reg)** is a Docker registry v2 command line client and repo listing generator with security checks.
