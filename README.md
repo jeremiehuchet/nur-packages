@@ -35,6 +35,4 @@ Some nixos packages automatically updated.
 
 **[rofimoji](pkgs/rofimoji)** provides an emoji picker in rofi.
 
-**[webtorrent-cli](pkgs/node-packages/webtorrent-cli)** a CLI bittorrent client.
-
 **[yaml2json](/pkgs/yaml2json)** is yaml to json converter.

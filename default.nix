@@ -32,7 +32,5 @@ in {
   reg = pkgs.callPackage ./pkgs/reg { };
   rofi-bookmarks = pkgs.callPackage ./pkgs/rofi-bookmarks { };
   rofimoji = pkgs.callPackage ./pkgs/rofimoji { inherit poetry2nix; };
-  webtorrent-cli =
-    pkgs.callPackage ./pkgs/node-packages/webtorrent-cli/fixed.nix { };
   yaml2json = pkgs.callPackage ./pkgs/yaml2json { };
 }
