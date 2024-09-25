@@ -22,13 +22,13 @@ let
         sha512 = "XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==";
       };
     };
-    "@types/node-20.12.2" = {
+    "@types/node-22.7.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.2";
+      version = "22.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.2.tgz";
-        sha512 = "zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.7.1.tgz";
+        sha512 = "adOMRLVmleuWs/5V/w5/l7o0chDK/az+5ncCsIapTKogsu/3MVWvSgP58qVTXi5IwpfGt8pMobNq9rOWtJyu5Q==";
       };
     };
     "@vercel/build-utils-2.6.1-canary.0" = {
@@ -400,6 +400,15 @@ let
         sha512 = "iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==";
       };
     };
+    "ini-1.3.8" = {
+      name = "ini";
+      packageName = "ini";
+      version = "1.3.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz";
+        sha512 = "JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==";
+      };
+    };
     "is-ci-2.0.0" = {
       name = "is-ci";
       packageName = "is-ci";
@@ -562,15 +571,6 @@ let
         sha512 = "9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==";
       };
     };
-    "now-21.0.1" = {
-      name = "now";
-      packageName = "now";
-      version = "21.0.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/now/-/now-21.0.1.tgz";
-        sha512 = "5QlbhlL7NkNCYQqUgRpAnXMWyRyMZhsI2hQ7PzWfUrkSazG2RWFmXYRWbU7rAZcpB++Xt5vglqWma9LAGDPGhg==";
-      };
-    };
     "once-1.4.0" = {
       name = "once";
       packageName = "once";
@@ -607,13 +607,13 @@ let
         sha512 = "ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==";
       };
     };
-    "pump-3.0.0" = {
+    "pump-3.0.2" = {
       name = "pump";
       packageName = "pump";
-      version = "3.0.0";
+      version = "3.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pump/-/pump-3.0.0.tgz";
-        sha512 = "LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==";
+        url = "https://registry.npmjs.org/pump/-/pump-3.0.2.tgz";
+        sha512 = "tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==";
       };
     };
     "pupa-2.1.1" = {
@@ -796,13 +796,13 @@ let
         sha512 = "D/wqnB2xzNFIcoBG9FG8cXRDjiqSTbG2wd8DMZeQyJlP1vfTkIxH4GKveWaEBYySKIg+USu+E+EDIR47SqnaMQ==";
       };
     };
-    "undici-types-5.26.5" = {
+    "undici-types-6.19.8" = {
       name = "undici-types";
       packageName = "undici-types";
-      version = "5.26.5";
+      version = "6.19.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz";
-        sha512 = "JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==";
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz";
+        sha512 = "ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==";
       };
     };
     "unique-string-2.0.0" = {
@@ -830,6 +830,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-3.0.0.tgz";
         sha512 = "NjFKA0DidqPa5ciFcSrXnAltTtzz84ogy+NebPvfEgAck0+TNg4UJ4IN+fB7zRZfbgUf0syOo9MDxFkDSMuFaQ==";
+      };
+    };
+    "vercel-21.0.0" = {
+      name = "vercel";
+      packageName = "vercel";
+      version = "21.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vercel/-/vercel-21.0.0.tgz";
+        sha512 = "xe0rc9Fj+CgT226TAgN0YVMgiHvs6QsPzIR6K5m2Dqc8aQjueaM0a4aTHxPErQAS6h32O7TC0QtTyyEwBtVGNw==";
       };
     };
     "widest-line-3.1.0" = {
@@ -885,7 +894,7 @@ let
     dependencies = [
       sources."@sindresorhus/is-0.14.0"
       sources."@szmarczak/http-timer-1.1.2"
-      sources."@types/node-20.12.2"
+      sources."@types/node-22.7.1"
       sources."@vercel/build-utils-2.6.1-canary.0"
       sources."@vercel/go-1.1.6"
       sources."@vercel/node-1.8.5"
@@ -922,7 +931,11 @@ let
       sources."end-of-stream-1.4.4"
       sources."escape-goat-2.1.1"
       sources."get-stream-4.1.0"
-      sources."global-dirs-2.1.0"
+      (sources."global-dirs-2.1.0" // {
+        dependencies = [
+          sources."ini-1.3.7"
+        ];
+      })
       sources."got-9.6.0"
       sources."graceful-fs-4.2.11"
       sources."has-flag-4.0.0"
@@ -930,7 +943,7 @@ let
       sources."http-cache-semantics-4.1.1"
       sources."import-lazy-2.1.0"
       sources."imurmurhash-0.1.4"
-      sources."ini-1.3.7"
+      sources."ini-1.3.8"
       sources."is-ci-2.0.0"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-installed-globally-0.3.2"
@@ -948,12 +961,11 @@ let
       sources."mimic-response-1.0.1"
       sources."minimist-1.2.8"
       sources."normalize-url-4.5.1"
-      sources."now-21.0.1"
       sources."once-1.4.0"
       sources."p-cancelable-1.1.0"
       sources."package-json-6.5.0"
       sources."prepend-http-2.0.0"
-      sources."pump-3.0.0"
+      sources."pump-3.0.2"
       sources."pupa-2.1.1"
       sources."rc-1.2.8"
       sources."registry-auth-token-4.2.2"
@@ -974,10 +986,11 @@ let
       sources."type-fest-0.8.1"
       sources."typedarray-to-buffer-3.1.5"
       sources."typescript-3.9.3"
-      sources."undici-types-5.26.5"
+      sources."undici-types-6.19.8"
       sources."unique-string-2.0.0"
       sources."update-notifier-4.1.0"
       sources."url-parse-lax-3.0.0"
+      sources."vercel-21.0.0"
       sources."widest-line-3.1.0"
       sources."wrappy-1.0.2"
       sources."write-file-atomic-3.0.3"
