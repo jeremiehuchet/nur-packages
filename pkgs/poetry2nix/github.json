@@ -2,7 +2,7 @@
   "renovate:datasource": "github-tags",
   "owner": "nix-community",
   "repo": "poetry2nix",
-  "version": "2024.9.2739114",
-  "rev": "038825873c3c3c7f9e238384e7324a3e7f7a1b15",
-  "hash": "sha256-JolJ401bMc4/CS4wU7/WXEbjYCHQ/KcxndVE2SPLslo="
+  "version": "2024.9.2866240",
+  "rev": "d8928e5929c2344704264e8447452e0f73c72497",
+  "hash": "sha256-dtOOYKGcfYTf0bSPuiY+BVEKdSw/zd/u2QvNXciQ0/E="
 }
