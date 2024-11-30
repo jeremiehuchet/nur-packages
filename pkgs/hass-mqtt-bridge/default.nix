@@ -9,7 +9,7 @@ in rustPlatform.buildRustPackage {
   cargoLock = {
     lockFile = "${src}/Cargo.lock";
     outputHashes = {
-      "hass-mqtt-autodiscovery-0.1.0" = (lib.importJSON ./github-hass-mqtt-autodiscovery.json).hash;
+      "ha-mqtt-discovery-0.1.0" = (lib.importJSON ./github-ha-mqtt-discovery.json).hash;
       "rika-firenet-client-0.1.0" = (lib.importJSON ./github-rika-firenet-client.json).hash;
       "somfy-protect-client-0.1.0" = (lib.importJSON ./github-somfy-protect-client.json).hash;
     };
