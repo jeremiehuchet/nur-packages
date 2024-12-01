@@ -2,13 +2,13 @@
 
 let
   github = lib.importJSON ./github.json;
+  src = fetchFromGitHub { inherit (github) owner repo rev hash; };
 in rustPlatform.buildRustPackage {
   pname = "livebox-cli";
   version = github.version;
+  inherit src;
 
-  src = fetchFromGitHub { inherit (github) owner repo rev hash; };
-
-  cargoSha256 = "G61z7jgPRjmnfn7TEh9k2nMIFFU5GDpcfUbdiKGvkE4=";
+  cargoLock.lockFile = "${src}/Cargo.lock";
 
   nativeBuildInputs = [
     pkg-config
