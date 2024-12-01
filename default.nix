@@ -18,7 +18,6 @@ in {
 
   inherit poetry2nix;
 
-  any-proxy = pkgs.callPackage ./pkgs/any-proxy { };
   ccat = pkgs.callPackage ./pkgs/ccat { };
   dbvisualizer = pkgs.callPackage ./pkgs/dbvisualizer { };
   gitmoji-cli = pkgs.callPackage ./pkgs/node-packages/gitmoji-cli/fixed.nix { };

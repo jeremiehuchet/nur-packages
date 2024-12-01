@@ -1,9 +1,0 @@
-{
-  "renovate:datasource": "git-refs",
-  "owner": "ryanchapman",
-  "repo": "go-any-proxy",
-  "version": "master",
-  "rev": "c2ab9c6aad9a2a2c090571f819a0de0a51878abf",
-  "hash": "sha256-0oRJea66AZursq+kHV+MF2T5TSHKCA0VDlkXRTVuqfs=",
-  "fetchSubmodules": true
-}
