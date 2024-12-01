@@ -1,0 +1,27 @@
+{
+  "owner": "batmac",
+  "repo": "ccat",
+  "version": "v1.17.0",
+  "assets": {
+    "checksums.txt": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.17.0/checksums.txt",
+      "hash": "sha256-e0k/Ld0eusflUXzjZ07cZHUhUXHuKB6WPHq++czhh0A="
+    },
+    "ccat-1.17.0-darwin-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.17.0/ccat-1.17.0-darwin-amd64.tar.gz",
+      "hash": "sha256-kMBgD1WNTc4BTEK6OswpevmVAhKUhGsTh/YxGM6QSQo="
+    },
+    "ccat-1.17.0-darwin_arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.17.0/ccat-1.17.0-darwin-arm64.tar.gz",
+      "hash": "sha256-0000000000000000000000000000000000000000000="
+    },
+    "ccat-1.17.0-linux-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.17.0/ccat-1.17.0-linux-amd64.tar.gz",
+      "hash": "sha256-vxV5SomvrZYdGMmNjQK+cCh3r/oGRlz1xECJ/FQENHU="
+    },
+    "ccat-1.17.0-linux_arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.17.0/ccat-1.17.0-linux-arm64.tar.gz",
+      "hash": "sha256-0000000000000000000000000000000000000000000="
+    }
+  }
+}
