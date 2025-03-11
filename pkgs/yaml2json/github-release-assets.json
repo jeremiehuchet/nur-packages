@@ -1,183 +1,183 @@
 {
   "owner": "bronze1man",
   "repo": "yaml2json",
-  "version": "v1.3.4",
+  "version": "v1.3.5",
   "assets": {
     "yaml2json_aix_ppc64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_aix_ppc64",
-      "hash": "sha256-/v3M/yI8L0rGRsCggBJmqlYfdKoIjMwuyaZSkOya8WE="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_aix_ppc64",
+      "hash": "sha256-QTBsUI+WB1cA3K2OO4DbDK8a2HfWmEGfz2HqfYzK+h4="
     },
     "yaml2json_all.zip": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_all.zip",
-      "hash": "sha256-wA47RtMYPYYoRz+7qiuWd7CCWJ7CpUP20NzeehHKPAQ="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_all.zip",
+      "hash": "sha256-SG2pvSyWVuRajQicUf/hXUn48Pr1JETVrryMVXXtgJE="
     },
     "yaml2json_darwin_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_darwin_amd64",
-      "hash": "sha256-ULJtriolAhthbp7iiOsaTj32IFwJ12pNL8ed3bMx61A="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_darwin_amd64",
+      "hash": "sha256-pzKlpm8UG3XP5Ux9fAXr744H3gJzk2F4exxOzocdYGM="
     },
     "yaml2json_darwin_arm64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_darwin_arm64",
-      "hash": "sha256-xrkH8iAHteA0fbUllARXhvfImZJzA+GzJkPA666O4yA="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_darwin_arm64",
+      "hash": "sha256-XKv4jothrmBD4FVnJ55BdUeOzOxZjWg2z8bzxGIDTDo="
     },
     "yaml2json_dragonfly_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_dragonfly_amd64",
-      "hash": "sha256-tqCWgasy7rkBLm+icsPuxdCZPNq94wET5kJbcLUBDh8="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_dragonfly_amd64",
+      "hash": "sha256-F4XUqqsk7V+IQm0hKQClCkybDhUkIIm0rOscb0q1Uxg="
     },
     "yaml2json_freebsd_386": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_freebsd_386",
-      "hash": "sha256-PDRDnwukSNgPxi7iHHXlReAncmljGJgy742pCQxkY8A="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_freebsd_386",
+      "hash": "sha256-ocOCmDJX9EDENlD7/XEPO0S75cfRZZMCnED9em7Gw04="
     },
     "yaml2json_freebsd_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_freebsd_amd64",
-      "hash": "sha256-oMvhNLF6ZgXjZozIRNnySMX/M1It32XBvGGfguoMi2A="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_freebsd_amd64",
+      "hash": "sha256-uPzhzVJ1MYfmISQ0vTWnhgDTP75JBRKzdehB45WkJKg="
     },
     "yaml2json_freebsd_arm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_freebsd_arm",
-      "hash": "sha256-iyJXNBiBFlkpZhdtSCLjjK12386f29h3QCjteqUu9QU="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_freebsd_arm",
+      "hash": "sha256-6oZ0yZOqfdckhWPyZ6ydlGK3Af9xMHfiOJnu41dpoTU="
     },
     "yaml2json_freebsd_arm64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_freebsd_arm64",
-      "hash": "sha256-UXW5bP0dh/dclmY/yUAUHQc3hiEkH6UUGhy8XU9d9OY="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_freebsd_arm64",
+      "hash": "sha256-X6Cqn1wNr0zEEr9dFsuEyThgkKJ49Pi9qdugJJl5/hg="
     },
     "yaml2json_freebsd_riscv64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_freebsd_riscv64",
-      "hash": "sha256-sqnTUfWh3qs0lMI+JDBw4sjofiVclofDlx2bdkotoWc="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_freebsd_riscv64",
+      "hash": "sha256-7k/cvzlZ1EJFSc4x+vB1Ze0lutNUyTt/h9+t4gLRjLs="
     },
     "yaml2json_illumos_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_illumos_amd64",
-      "hash": "sha256-objrCQH6UuOGTiN547Tb0MJj3MK8kFj2al2lvbdsHxc="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_illumos_amd64",
+      "hash": "sha256-AhJMztVNLXS9INDINBsHnpZXM6NSHLHn7r006+mYZiA="
     },
     "yaml2json_js_wasm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_js_wasm",
-      "hash": "sha256-gu5s25eaeReqGeqCG9sMUnywZx2ygHgTu0KMGkOWC2A="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_js_wasm",
+      "hash": "sha256-wrnGS5sNSKiz8KFr40VKGyuDEYuS76ShGFF9hOGJCr0="
     },
     "yaml2json_linux_386": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_386",
-      "hash": "sha256-XZ+FfmIlgbXlZ7++Ul2MDZyAw/ga7+cWPBP1EyH5AaU="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_386",
+      "hash": "sha256-qEVNAjyJsBpzyeR76qpH7a+cvDnYSqI90wba+BnXT+k="
     },
     "yaml2json_linux_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_amd64",
-      "hash": "sha256-Ix+FUMs2NsWf1cpmGMqTGauyyyVYCD8kTs2+mvaKWR4="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_amd64",
+      "hash": "sha256-vxE1kY+q6YqpMYc7RbG68sMxtMh2UcZ7upHqOYKdhs0="
     },
     "yaml2json_linux_arm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_arm",
-      "hash": "sha256-KbX2L5mp+L/YRiLIyPpe5NfZY24A5VxLB4rW0QY2Lm0="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_arm",
+      "hash": "sha256-/VaagFS92RSoRC2ThNwEOlQDVgUXp5pVCEXfL41aGxA="
     },
     "yaml2json_linux_arm64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_arm64",
-      "hash": "sha256-60rbNN7dUbXyznf3RjzkFfy5jRCfi6MmQ3frkh+8Djo="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_arm64",
+      "hash": "sha256-yF+0MgVvK4B1HaKdy4d8lwiHDpFnmAYpj3VpAWTbLzA="
     },
     "yaml2json_linux_loong64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_loong64",
-      "hash": "sha256-nKucH+1evrqDRvT7Hf4ShzQLuxUP2+TzMHt51sU5uJM="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_loong64",
+      "hash": "sha256-hLh8eIBBa3Q1p3FBQoWamudfKilUoC4NGiwz/Pf5RC4="
     },
     "yaml2json_linux_mips": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_mips",
-      "hash": "sha256-L0hnmRYebduKCCR/hSNmatyqqdMThTnXf/7XK+ELnuo="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_mips",
+      "hash": "sha256-0BUjKhSWJRtQIYifasdkjgFsLPNeqKbR/Uod/dPULQ4="
     },
     "yaml2json_linux_mips64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_mips64",
-      "hash": "sha256-LzraCQDR2/3pZ3IgfRw61ctLGu3BVPaQ0pcgBgEp3kU="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_mips64",
+      "hash": "sha256-kBvoBRXrD+Mq7tKZo7KtNed9dfvNNkhpaojZKfaybHE="
     },
     "yaml2json_linux_mips64le": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_mips64le",
-      "hash": "sha256-xBCwpFBa+Tlaidko3mDLmHWps6nYZlr3Lijzf1PkraY="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_mips64le",
+      "hash": "sha256-c0DtBB9V5ly9U/64cZjheSxLO2r6Rjhn5epcOiWyuhA="
     },
     "yaml2json_linux_mipsle": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_mipsle",
-      "hash": "sha256-i3b0YrNcwfn3pDL4lgG04c1oFQx1RyAQuYHiCtfNKNg="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_mipsle",
+      "hash": "sha256-LF+Gcinlw+8DccTm6kUblJ6+bI+++OxBePChGxdFk1w="
     },
     "yaml2json_linux_ppc64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_ppc64",
-      "hash": "sha256-DSQf/m6UZ4rES9njXF3kKAOGFhdJtcVIcJ0YK2IMsdo="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_ppc64",
+      "hash": "sha256-o4E8LptOhBEi46fJrHO07jeLp2pkxbh+IaqQqMzIYCs="
     },
     "yaml2json_linux_ppc64le": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_ppc64le",
-      "hash": "sha256-OfQIaCIxA8v7N8jiw5G6eUc73i1uMfN1TEb3gGieE4g="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_ppc64le",
+      "hash": "sha256-YCRwDjoItDk6aAt6GGmaElAXKdhDGETquZX8ZMb0Hm4="
     },
     "yaml2json_linux_riscv64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_riscv64",
-      "hash": "sha256-+5maMQr92bCgQ5pMOXbDOBCs0DTzOMkxtfyY5cp9Jb8="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_riscv64",
+      "hash": "sha256-dAn8HOXhz4+NTWwF2H2Ayfu7Rg2zSuYjjEzk/c/0SUE="
     },
     "yaml2json_linux_s390x": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_linux_s390x",
-      "hash": "sha256-M9hj/ROMrsfa1VJt8A5mBUkKApLnUzAesMQ7gHQ9E4U="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_linux_s390x",
+      "hash": "sha256-+nKrbjhnyOJZd8gQA4PVyMmK007EmdZtjQpSF8d+MCg="
     },
     "yaml2json_netbsd_386": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_netbsd_386",
-      "hash": "sha256-TvrkL90WsmRDRgJW8yYYO955XbTPOPCfaetez/Mof4c="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_netbsd_386",
+      "hash": "sha256-cJt/ydrtVvhRYEBwl1ny/5gaHT1rLF7kaBL/JicIURI="
     },
     "yaml2json_netbsd_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_netbsd_amd64",
-      "hash": "sha256-EjduLml6bpp6wv4rq6T5XWthtweBwrGIvK2AowWnQ4k="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_netbsd_amd64",
+      "hash": "sha256-kija/xbq/cFEvic5rvuyHocBYl1OJIQEFBZ/QZe2CwY="
     },
     "yaml2json_netbsd_arm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_netbsd_arm",
-      "hash": "sha256-s0xL2Y9f3YgCHHMf36zFo/Chwa20MnM9I0JsD5KN41w="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_netbsd_arm",
+      "hash": "sha256-K3gBQPdMqkjdvgpQIhOPP4B6VAyveNEZSQ1zSlao6+o="
     },
     "yaml2json_netbsd_arm64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_netbsd_arm64",
-      "hash": "sha256-jiyttPV9N9+IEv/w/9lGj5ivsM2oo+P22Qo+yLCg2A4="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_netbsd_arm64",
+      "hash": "sha256-Xy9DkZ3iC5LsYL6DHC0ZiP/5DdD0/0di2mC2R0Uvx/M="
     },
     "yaml2json_openbsd_386": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_386",
-      "hash": "sha256-CMIbjyC3uZQjTrHjrcabfzYGZFHQ1julLllPtzsH0Ts="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_386",
+      "hash": "sha256-cKhcyQyuiSV/g1Q0pkPcV/YogNmJhlGvZgYcqSxA4fo="
     },
     "yaml2json_openbsd_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_amd64",
-      "hash": "sha256-9tkFyxnRjplpQ3/otsWEvetJWzVwDHHGjdwPxAf+xSw="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_amd64",
+      "hash": "sha256-+Qgrfsy0URgUUsReg4vszpXkTZ5zXf1Pr33FIAceNQs="
     },
     "yaml2json_openbsd_arm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_arm",
-      "hash": "sha256-5HzyYM5YYUwDfTGMtuRlNoIzS9UZiUR9F3TreZa20w4="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_arm",
+      "hash": "sha256-5KWnkvqrBSSbnicg4pmMnBz7281KbG/4zmH1yXmhgVA="
     },
     "yaml2json_openbsd_arm64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_arm64",
-      "hash": "sha256-h/i52I1ucD3Ly9OPu0yqFC/pyFZci1gRa8ZtdKb/zyY="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_arm64",
+      "hash": "sha256-G43uQnssp3ScPYuaeUJjFMfUB+u/ztpDATwIbMxJHcs="
     },
     "yaml2json_openbsd_ppc64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_ppc64",
-      "hash": "sha256-KtIKMpwpIyGdLDaFUbDbwQq+t/o3Q9tYoeFWIDthCPo="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_ppc64",
+      "hash": "sha256-qHDmstvTgwvSrD4Is/bj+nl5LDWeWWdfdogHVTJ/de8="
     },
     "yaml2json_openbsd_riscv64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_openbsd_riscv64",
-      "hash": "sha256-BEQPMQjhuavEE3UMBqpT//f/WkqhYa70hk9OrvRuPr8="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_openbsd_riscv64",
+      "hash": "sha256-DsThOXhtch2HO0y8Bbf76Q93E074ZeWAa8+RaL7cZog="
     },
     "yaml2json_plan9_386": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_plan9_386",
-      "hash": "sha256-MckanJoFiXbrvS+kuPEaU2GvP93ySdPyNkpZQCGdiTM="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_plan9_386",
+      "hash": "sha256-7yb2UVtxS7GE8djb81vtrYdnnQIehyI4grVoF1xSgKo="
     },
     "yaml2json_plan9_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_plan9_amd64",
-      "hash": "sha256-pqdGG8j4EcELQJq3chJcRvlgoHDc7Fbyq6Fxh3OwjPA="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_plan9_amd64",
+      "hash": "sha256-AlkSw2pGDNG/XfGezoeSR6Jv1J3gingujwseTvGXFQM="
     },
     "yaml2json_plan9_arm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_plan9_arm",
-      "hash": "sha256-PkSCrMrSU9b7CauYe9lqlaTypUtQ9jh8pUkssC0/Or0="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_plan9_arm",
+      "hash": "sha256-/sc1z+ssrv4jtlLyKumWH+8qp3DL8wzOBBPe/nN86EQ="
     },
     "yaml2json_solaris_amd64": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_solaris_amd64",
-      "hash": "sha256-5gmrQ+bxWU7jD68heZGekrFpEbK3MsAuB0zFTGbypjA="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_solaris_amd64",
+      "hash": "sha256-3YzQbywju8Cxmb6zZBpdxCx/vcBGr4vp/Qluj3G/PB0="
     },
     "yaml2json_wasip1_wasm": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_wasip1_wasm",
-      "hash": "sha256-Ei6Y1kALTKmlBVWhSm61H593ayhLEyUO+CWlQ0S0mGo="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_wasip1_wasm",
+      "hash": "sha256-nYtyvQ3RVDkl98e2XWFkgVcyHHuMl9L8pAOYHGFLW6A="
     },
     "yaml2json_windows_386.exe": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_windows_386.exe",
-      "hash": "sha256-M9ytaAjZKbGkisBIpnqYYXaiUOE2OVRz3gANVe5G+gc="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_windows_386.exe",
+      "hash": "sha256-rPTT3qGO4wTFWAkVaNrP4WbK35gEyQcwOXgMVSkza+c="
     },
     "yaml2json_windows_amd64.exe": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_windows_amd64.exe",
-      "hash": "sha256-rfFzNx/934qCCiUsD354WwJgTmNNzddsjDQOFM6GRRg="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_windows_amd64.exe",
+      "hash": "sha256-l/wykdOFv3eID41YPsd+7yD23d+lfQuxAJtY+F6Bq9E="
     },
     "yaml2json_windows_arm.exe": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_windows_arm.exe",
-      "hash": "sha256-ZCSvpPqlh1NO8D0tfopYmwLtaJY6Kd27y+QcN5MbI6A="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_windows_arm.exe",
+      "hash": "sha256-EiN1reVbOUnf5HNfMfUywvir/74x8NBXOHVivVph+nY="
     },
     "yaml2json_windows_arm64.exe": {
-      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.4/yaml2json_windows_arm64.exe",
-      "hash": "sha256-vL9d+s82PluH/DVARCamPnyr/n+GCHs8uwsgUPpbBHU="
+      "url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.5/yaml2json_windows_arm64.exe",
+      "hash": "sha256-H1z+UPbcdie/LjQyNKsr3X5ehHK3MY0JEjMVfROimfg="
     }
   }
 }
