@@ -373,13 +373,13 @@ let
         sha512 = "rBMW+F2TXryBwB54Q0d8drNEI+TfoS9JpNTAoVpukbWEhjXQq4rySFYLaqXMFXwdv61Zb2OHtj5bviSoimqxRQ==";
       };
     };
-    "debug-4.4.0" = {
+    "debug-4.4.1" = {
       name = "debug";
       packageName = "debug";
-      version = "4.4.0";
+      version = "4.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.4.0.tgz";
-        sha512 = "6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.4.1.tgz";
+        sha512 = "KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==";
       };
     };
     "deep-extend-0.6.0" = {
@@ -598,13 +598,13 @@ let
         sha512 = "E1b1lFFLvLgak2whF2xDBcOy6NLVGZBqqjJjsIhvopKfWWEi64pLVTWWehV8KlLerZkfNTA95sTe2OdJKm1OzQ==";
       };
     };
-    "gitmoji-cli-9.6.0" = {
+    "gitmoji-cli-9.7.0" = {
       name = "gitmoji-cli";
       packageName = "gitmoji-cli";
-      version = "9.6.0";
+      version = "9.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.6.0.tgz";
-        sha512 = "S5E1nH2lMQodcza45UY32CWSl9/MIWaY0MgN1h3ExLead141KCwFQAPUb24ojbFRsjaYx0+owKRDCzpcgcY74w==";
+        url = "https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-9.7.0.tgz";
+        sha512 = "B3IFBO7kh2ysf872U0iaL5DbbkQJ5X8SIl3PCqt21ImBibszTsx+uCP6l0vlH2WrZjD3J2zEC2UpsYqqAbEQDQ==";
       };
     };
     "global-directory-4.0.1" = {
@@ -1291,13 +1291,13 @@ let
         sha512 = "YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==";
       };
     };
-    "semver-7.7.1" = {
+    "semver-7.7.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.7.1";
+      version = "7.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.7.1.tgz";
-        sha512 = "hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.7.2.tgz";
+        sha512 = "RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==";
       };
     };
     "shebang-command-2.0.0" = {
@@ -1489,13 +1489,13 @@ let
         sha512 = "t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==";
       };
     };
-    "type-fest-4.40.0" = {
+    "type-fest-4.41.0" = {
       name = "type-fest";
       packageName = "type-fest";
-      version = "4.40.0";
+      version = "4.41.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/type-fest/-/type-fest-4.40.0.tgz";
-        sha512 = "ABHZ2/tS2JkvH1PEjxFDTUWC8dB5OsIGZP4IFLhR293GqT5Y5qB1WwL2kMPYhQW9DVgVD8Hd7I8gjwPIf5GFkw==";
+        url = "https://registry.npmjs.org/type-fest/-/type-fest-4.41.0.tgz";
+        sha512 = "TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==";
       };
     };
     "uint8array-extras-1.4.0" = {
@@ -1673,7 +1673,7 @@ let
       sources."cross-spawn-7.0.6"
       sources."data-uri-to-buffer-4.0.1"
       sources."debounce-fn-6.0.0"
-      sources."debug-4.4.0"
+      sources."debug-4.4.1"
       sources."deep-extend-0.6.0"
       sources."defaults-1.0.4"
       sources."degenerator-5.0.1"
@@ -1705,7 +1705,7 @@ let
           sources."data-uri-to-buffer-6.0.2"
         ];
       })
-      sources."gitmoji-cli-9.6.0"
+      sources."gitmoji-cli-9.7.0"
       (sources."global-directory-4.0.1" // {
         dependencies = [
           sources."ini-4.1.1"
@@ -1814,7 +1814,7 @@ let
       sources."rxjs-7.8.2"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
-      sources."semver-7.7.1"
+      sources."semver-7.7.2"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
@@ -1832,7 +1832,7 @@ let
       sources."supports-color-7.2.0"
       sources."tmp-0.0.33"
       sources."tslib-2.8.1"
-      sources."type-fest-4.40.0"
+      sources."type-fest-4.41.0"
       sources."uint8array-extras-1.4.0"
       sources."update-notifier-7.3.1"
       sources."util-deprecate-1.0.2"
