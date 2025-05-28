@@ -2,7 +2,7 @@
   "renovate:datasource": "github-tags",
   "owner": "nix-community",
   "repo": "nix-direnv",
-  "version": "3.0.7",
-  "rev": "48ddf8e45e0bbe321e0d732837b827731028ef11",
-  "hash": "sha256-H59MMmyQ9Tl9CLKKkXIv2NZddrrJNLv8XOOI2e4pG64="
+  "version": "3.1.0",
+  "rev": "ae9062da3a6d103cd4158f4db2edcd73a1b379f0",
+  "hash": "sha256-HdnQRcysoKNPbVa/D3KDcLgqf5+u9JDPmcl29cGj4AI="
 }
