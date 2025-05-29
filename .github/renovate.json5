@@ -1,32 +1,42 @@
 {
   extends: [
-    "config:best-practices",
-    ":automergePatch",
-    ":disableRateLimiting",
-    "local>jeremiehuchet/renovate-runner"
+    'config:best-practices',
+    ':automergePatch',
+    ':disableRateLimiting',
+    'local>jeremiehuchet/renovate-runner',
   ],
-  enabledManagers: ["custom.regex", "github-actions", "npm"],
+  enabledManagers: [
+    'custom.regex',
+    'github-actions',
+    'npm',
+  ],
   customManagers: [
     {
-      customType: "regex",
-      fileMatch: ["/github(-.*)?.json$"],
+      customType: 'regex',
+      managerFilePatterns: [
+        '//github(-.*)?.json$/',
+      ],
       matchStrings: [
         '{\\s*"renovate:datasource"\\s*:\\s*"(?<datasource>[^"]*)"\\s*,\\s*"owner"\\s*:\\s*"(?<owner>[^"]*)"\\s*,\\s*"repo"\\s*:\\s*"(?<repo>[^"]*)"\\s*,\\s*"version"\\s*:\\s*"(?<currentValue>[^"]*)"\\s*,\\s*"rev"\\s*:\\s*"(?<currentDigest>[^"]*)"\\s*,\\s*"hash"\\s*:\\s*"(?<hash>[^"]*)"\\s*}',
       ],
-      depNameTemplate: "{{{owner}}}/{{{repo}}}",
+      depNameTemplate: '{{{owner}}}/{{{repo}}}',
       packageNameTemplate: "{{#if (equals datasource 'git-refs')}}https://github.com/{{{owner}}}/{{{repo}}}.git{{else}}{{{owner}}}/{{{repo}}}{{/if}}",
     },
     {
-      customType: "regex",
-      fileMatch: ["/github-release-assets.json$"],
+      customType: 'regex',
+      managerFilePatterns: [
+        '//github-release-assets.json$/',
+      ],
       matchStrings: [
         '{\\s*"owner"\\s*:\\s*"(?<owner>[^"]*)"\\s*,\\s*"repo"\\s*:\\s*"(?<repo>[^"]*)"\\s*,\\s*"version"\\s*:\\s*"(?<currentValue>[^"]*)"\\s*,\\s*"assets"\\s*:\\s*',
       ],
-      datasourceTemplate: "github-releases",
-      depNameTemplate: "{{{owner}}}/{{{repo}}}",
+      datasourceTemplate: 'github-releases',
+      depNameTemplate: '{{{owner}}}/{{{repo}}}',
     },
   ],
   postUpgradeTasks: {
-    commands: ["./.github/renovate-post-upgrade.sh --modified"],
+    commands: [
+      './.github/renovate-post-upgrade.sh --modified',
+    ],
   },
 }
