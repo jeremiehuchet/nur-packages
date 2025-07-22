@@ -33,7 +33,7 @@ jobs:
         cachixName:
           - jeremiehuchet
         nixPath:
-          - nixpkgs=channel:nixos-24.11
+          - nixpkgs=channel:nixos-25.05
           #- nixpkgs=channel:nixos-unstable
     runs-on: ubuntu-latest
     steps:
