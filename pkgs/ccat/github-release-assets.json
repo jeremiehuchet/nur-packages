@@ -1,99 +1,99 @@
 {
   "owner": "batmac",
   "repo": "ccat",
-  "version": "v1.18.0",
+  "version": "v1.20.1",
   "assets": {
-    "ccat-1.18.0-darwin-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-darwin-amd64.tar.gz",
-      "hash": "sha256-MhL1a20pbKjwq2947XpqaBuKiyMjSSYrWIh5bwvfFLQ="
+    "ccat-1.20.1-darwin-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-darwin-amd64.tar.gz",
+      "hash": "sha256-dmZwWdpHj1zFt9RYLJMMGP4HCGSCXQJdowptB2TKbf0="
     },
-    "ccat-1.18.0-darwin-arm64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-darwin-arm64.tar.gz",
-      "hash": "sha256-J1gvdPCvlZejliKtdUmiBTHOKf1wFvCALLotMS3wcYs="
+    "ccat-1.20.1-darwin-arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-darwin-arm64.tar.gz",
+      "hash": "sha256-EfwLVacrefjTiha2AueAzRLuCTdeaV/uZyzo/RtKFME="
     },
-    "ccat-1.18.0-dragonfly-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-dragonfly-amd64.tar.gz",
-      "hash": "sha256-HAsCK/oBw5qb8PzCoYcc/NyBpSuE2sHhs7pN5sa7sqE="
+    "ccat-1.20.1-dragonfly-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-dragonfly-amd64.tar.gz",
+      "hash": "sha256-e6iHi8Aaf2Ca92faKkw+JihBZiobMmHYLqysOMowkXI="
     },
-    "ccat-1.18.0-freebsd-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-freebsd-amd64.tar.gz",
-      "hash": "sha256-0gpbTPzl6iNO/CKbZYkQs/exYGFzF+/J8lrZTwFg74g="
+    "ccat-1.20.1-freebsd-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-freebsd-amd64.tar.gz",
+      "hash": "sha256-DAUAc6RWqdB6HHFkxgOVce0eDr+FtYl52kYP9po1CDk="
     },
-    "ccat-1.18.0-freebsd-arm64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-freebsd-arm64.tar.gz",
-      "hash": "sha256-NJu1ZCeNMdq4CYp77QhJaTtdY8OFU6E8gJOWVCORvX8="
+    "ccat-1.20.1-freebsd-arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-freebsd-arm64.tar.gz",
+      "hash": "sha256-XDagUxYUVpo0z0o5DtsqK45RB79h/myDXTCZWw89prE="
     },
-    "ccat-1.18.0-freebsd-armv6.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-freebsd-armv6.tar.gz",
-      "hash": "sha256-in0FLGw8HEF34K/OlkZ77Thh/pnu25h86FmF9r7jWqU="
+    "ccat-1.20.1-freebsd-armv6.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-freebsd-armv6.tar.gz",
+      "hash": "sha256-urbe//MsdRgRJcmweAKJJmmfRfXQojVTUivNhmswVXQ="
     },
-    "ccat-1.18.0-freebsd-armv7.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-freebsd-armv7.tar.gz",
-      "hash": "sha256-xPi3yLjp6pPHlfQw78TCHnEM5KtC8BZ3MmQVxL3EfqU="
+    "ccat-1.20.1-freebsd-armv7.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-freebsd-armv7.tar.gz",
+      "hash": "sha256-UxUMpEcg7Sm7saIBYkTxvWtokyZsBwRcwFymQ/dZiko="
     },
-    "ccat-1.18.0-linux-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-linux-amd64.tar.gz",
-      "hash": "sha256-fTVuvwRwOQWC/2rdvpMGyADGTbSZyWA3goPJZn6hpjY="
+    "ccat-1.20.1-linux-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-linux-amd64.tar.gz",
+      "hash": "sha256-cA2gsIkJSSx//MrQ0h0+3WRtFQRlH7LsXdoZqMkIKww="
     },
-    "ccat-1.18.0-linux-arm64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-linux-arm64.tar.gz",
-      "hash": "sha256-HY8jRuF38y496tZUgca9jDV8Fm98NJqmxkN/mB2164o="
+    "ccat-1.20.1-linux-arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-linux-arm64.tar.gz",
+      "hash": "sha256-PiQREJTvppHslbIi4WVvL+qH7HFLp+THEqN5OAPZQwA="
     },
-    "ccat-1.18.0-linux-armv6.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-linux-armv6.tar.gz",
-      "hash": "sha256-jvno+hFoeduUCnco5+p1YZh4EBgBxgEL/9woBbC5f88="
+    "ccat-1.20.1-linux-armv6.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-linux-armv6.tar.gz",
+      "hash": "sha256-bDQj99p8wiiD5NN26SvwW+MzO5uZg+6MxTBRJVauZVo="
     },
-    "ccat-1.18.0-linux-armv7.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-linux-armv7.tar.gz",
-      "hash": "sha256-Nfcis2/axSBXskn6jtAZrqdRcIEWeMvLK62XBhKlBUI="
+    "ccat-1.20.1-linux-armv7.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-linux-armv7.tar.gz",
+      "hash": "sha256-B6OB4ckOFLRBoqhyY+id7TbjeWPrew5mDIBVyRcnBSI="
     },
-    "ccat-1.18.0-netbsd-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-netbsd-amd64.tar.gz",
-      "hash": "sha256-cVwSpOfWQCmdhdZUNxVu9rWed5mtDCREroSk5Bx6Aho="
+    "ccat-1.20.1-netbsd-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-netbsd-amd64.tar.gz",
+      "hash": "sha256-4oFMDOdvPZBn77fLwthLF8K8rsnklPmpOVSi9AhAyf8="
     },
-    "ccat-1.18.0-netbsd-arm64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-netbsd-arm64.tar.gz",
-      "hash": "sha256-WrlHnLzziv5P5C/Hpl0wzBA6ERkzF/UWivbPE7Sy8hs="
+    "ccat-1.20.1-netbsd-arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-netbsd-arm64.tar.gz",
+      "hash": "sha256-KAJSShtCr8Bf3WClO3giOY902aWvEctI/vUE6l+qKUA="
     },
-    "ccat-1.18.0-netbsd-armv6.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-netbsd-armv6.tar.gz",
-      "hash": "sha256-fdo5ToXvDIGRoHIiw5s8lOnIvZJpyUKH4laTsAYjFlk="
+    "ccat-1.20.1-netbsd-armv6.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-netbsd-armv6.tar.gz",
+      "hash": "sha256-IbmYprYPssyibaWbm4fN91fKT9kIUzXVD+qH38CYA8g="
     },
-    "ccat-1.18.0-netbsd-armv7.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-netbsd-armv7.tar.gz",
-      "hash": "sha256-k9clZP6WN2l4SwhXYM8tuVanpQGHCD8gh8W+rkfsQIk="
+    "ccat-1.20.1-netbsd-armv7.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-netbsd-armv7.tar.gz",
+      "hash": "sha256-So1MHPDZ0lPYbnvSuQ92LV4v6s2Dh6Ypv/xnfk8pvnA="
     },
-    "ccat-1.18.0-openbsd-amd64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-openbsd-amd64.tar.gz",
-      "hash": "sha256-ZNTIonRpEQO6cWahRxlRewfnqzko3ubzgRhHvB6Q33Y="
+    "ccat-1.20.1-openbsd-amd64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-openbsd-amd64.tar.gz",
+      "hash": "sha256-S9YYesJj4ug1nSp8i1Bv3ko6dZgz6f5SFdvdDiza98s="
     },
-    "ccat-1.18.0-openbsd-arm64.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-openbsd-arm64.tar.gz",
-      "hash": "sha256-guNH5te9b8Rb8C/27QydzuuFbvD2h9sno8asQ5cz3fM="
+    "ccat-1.20.1-openbsd-arm64.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-openbsd-arm64.tar.gz",
+      "hash": "sha256-/7rKXpRKLR0cxaFNgbedQEdXkVobGZsfx7oK8VwMPpQ="
     },
-    "ccat-1.18.0-openbsd-armv6.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-openbsd-armv6.tar.gz",
-      "hash": "sha256-0CXktRGj0eShJIQRCAQwNs5R1avrYhjtjforzR3FamQ="
+    "ccat-1.20.1-openbsd-armv6.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-openbsd-armv6.tar.gz",
+      "hash": "sha256-1/RNBD5Munjb87GQMn13j3B31G0LrY9P9kSodqBXJs0="
     },
-    "ccat-1.18.0-openbsd-armv7.tar.gz": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-openbsd-armv7.tar.gz",
-      "hash": "sha256-ITsYSboI1pOHza628lgxOw4sPjGyNtNgX9m2HB3JkUA="
+    "ccat-1.20.1-openbsd-armv7.tar.gz": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-openbsd-armv7.tar.gz",
+      "hash": "sha256-QO6t/iAj4Qk5OfUFoSvx/ENfNFRk7JDiyZpcHt8zKlE="
     },
-    "ccat-1.18.0-windows-amd64.zip": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-windows-amd64.zip",
-      "hash": "sha256-mRYupI2JOpNMuE5HzGJFmpbK26XDmT+bE2vLYmMtnaY="
+    "ccat-1.20.1-windows-amd64.zip": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-windows-amd64.zip",
+      "hash": "sha256-IuM+mzBwIQqNC8OOhl9REx7rWdaDTcBLJ13FuWCjijQ="
     },
-    "ccat-1.18.0-windows-arm64.zip": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/ccat-1.18.0-windows-arm64.zip",
-      "hash": "sha256-DTQ+/+rEI/KzaoRDpANBdqVsz5zvMWPXE3p3iZaJmV4="
+    "ccat-1.20.1-windows-arm64.zip": {
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/ccat-1.20.1-windows-arm64.zip",
+      "hash": "sha256-/UXmO/NlCxQguE7WXSBTLrLZ/Z2rrytMk97g9a60zsI="
     },
     "checksums.txt": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/checksums.txt",
-      "hash": "sha256-YWGZtg9ryWCW/c7cHuntBke0BbQZ6sgPAA3y71EAO/4="
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/checksums.txt",
+      "hash": "sha256-jRGl/dsSVJqxjXCKnHLCeuy8hkdyYG6D4IutDp33Ejg="
     },
     "checksums.txt.sig": {
-      "url": "https://github.com/batmac/ccat/releases/download/v1.18.0/checksums.txt.sig",
-      "hash": "sha256-nt3lHK024yk3hXmWi5+7dn8vt5EldY/EZQgGRN/NdMs="
+      "url": "https://github.com/batmac/ccat/releases/download/v1.20.1/checksums.txt.sig",
+      "hash": "sha256-8QYtusH0QpD8JvDghSagAsxmHxOSouKmrSktXvKlTZg="
     }
   }
 }
