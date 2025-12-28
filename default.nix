@@ -25,7 +25,6 @@ in {
   kubeone = pkgs.callPackage ./pkgs/kubeone { };
   livebox-cli = pkgs.callPackage ./pkgs/livebox-cli { };
   nix-direnv = pkgs.callPackage ./pkgs/nix-direnv { };
-  networkmanager-ssh = pkgs.callPackage ./pkgs/networkmanager-ssh { };
   notracking = pkgs.callPackage ./pkgs/notracking { };
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
   reg = pkgs.callPackage ./pkgs/reg { };
