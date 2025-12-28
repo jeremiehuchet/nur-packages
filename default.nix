@@ -8,15 +8,11 @@
 
 { pkgs ? import <nixpkgs> { } }:
 
-let
-  poetry2nix = pkgs.callPackage ./pkgs/poetry2nix { };
-in {
+{
   # The `lib`, `modules`, and `overlay` names are special
   lib = import ./lib { inherit pkgs; }; # functions
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
-
-  inherit poetry2nix;
 
   ccat = pkgs.callPackage ./pkgs/ccat { };
   dbvisualizer = pkgs.callPackage ./pkgs/dbvisualizer { };
