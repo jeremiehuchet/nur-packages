@@ -29,6 +29,5 @@ in {
   pyrandr = pkgs.callPackage ./pkgs/pyrandr { };
   reg = pkgs.callPackage ./pkgs/reg { };
   rofi-bookmarks = pkgs.callPackage ./pkgs/rofi-bookmarks { };
-  rofimoji = pkgs.callPackage ./pkgs/rofimoji { inherit poetry2nix; };
   yaml2json = pkgs.callPackage ./pkgs/yaml2json { };
 }
