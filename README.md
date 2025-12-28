@@ -29,6 +29,4 @@ Some nixos packages automatically updated.
 
 **[rofi-bookmarks](pkgs/rofi-bookmarks)** provides a list of browser bookmarks to choose from in rofi.
 
-**[rofimoji](pkgs/rofimoji)** provides an emoji picker in rofi.
-
 **[yaml2json](/pkgs/yaml2json)** is yaml to json converter.
