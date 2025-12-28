@@ -21,8 +21,6 @@ Some nixos packages automatically updated.
 
 **[nix-direnv](pkgs/nix-direnv)** an alternative to direnv's use_nix directive.
 
-**[networkmanager-ssh](pkgs/networkmanager-ssh)** is an SSH VPN integration for NetworkManager.
-
 **[notracking](pkgs/notracking)** is a dns filter list for blocking ads.
 
 **[pyrandr](pkgs/pyrandr)** is wrapper for xrandr aims to provide a simpler CLI.
