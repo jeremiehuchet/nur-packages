@@ -9,8 +9,6 @@ Some nixos packages automatically updated.
 
 **[dbvisualizer](pkgs/dbvisualizer)** is a tool to access databases.
 
-**[gitmoji-cli](pkgs/node-packages/gitmoji-cli)** provides an easy solution for using gitmoji from your command line.
-
 **[hass-livebox-component](pkgs/hass-livebox-component)** Livebox Component for Home assistant.
 
 **[jfrog-cli](pkgs/jfrog-cli)** provides a way to work with artifactory.

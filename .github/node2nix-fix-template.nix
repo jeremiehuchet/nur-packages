@@ -52,5 +52,5 @@ in renamedpkg.override {
   src = selfpkg.src;
   dependencies = lib.remove selfpkg original.args.dependencies;
   buildInputs = [ ]
-    ++ lib.optional requireNativeNodeGypBuild pkgs.nodePackages.node-gyp-build;
+    ++ lib.optional requireNativeNodeGypBuild pkgs.node-gyp-build;
 }
