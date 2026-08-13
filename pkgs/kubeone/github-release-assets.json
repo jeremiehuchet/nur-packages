@@ -1,47 +1,47 @@
 {
   "owner": "kubermatic",
   "repo": "kubeone",
-  "version": "v1.14.1",
+  "version": "v1.14.2",
   "assets": {
-    "kubeone_1.14.1_checksums.txt": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_checksums.txt",
-      "hash": "sha256-pNKmLjfVuqZp/B1t8wZ12UWjtzP3arsJYiU8e+d8DfI="
+    "kubeone_1.14.2_checksums.txt": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_checksums.txt",
+      "hash": "sha256-Ju0Dy67Z+6CcISt8AN6hGHuaNl/6V8+VPAcUHr9hdpg="
     },
-    "kubeone_1.14.1_checksums.txt.sigstore.json": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_checksums.txt.sigstore.json",
-      "hash": "sha256-ywVf4MWz/YuHjd7iX3ClpaInxaEjJb7wvf1LIZDZIY8="
+    "kubeone_1.14.2_checksums.txt.sigstore.json": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_checksums.txt.sigstore.json",
+      "hash": "sha256-4Fm/GLDTJMp+b3Pc4m0hs1ug30J9pTrYcDrUcRSRUis="
     },
-    "kubeone_1.14.1_darwin_amd64.sbom.spdx.json": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_darwin_amd64.sbom.spdx.json",
-      "hash": "sha256-rnuwN2m6YH+2GOb9CE03WLf1XClZpES60VYDowBksvs="
+    "kubeone_1.14.2_darwin_amd64.sbom.spdx.json": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_darwin_amd64.sbom.spdx.json",
+      "hash": "sha256-px022ukqoyF5q5nmmVeVXLRCflnJMd3b/5sJHPf5hM0="
     },
-    "kubeone_1.14.1_darwin_amd64.zip": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_darwin_amd64.zip",
-      "hash": "sha256-b8UWBXtolgsLKeUcM6rwRFcQtrwQwUWgtCgtSiwiS8o="
+    "kubeone_1.14.2_darwin_amd64.zip": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_darwin_amd64.zip",
+      "hash": "sha256-extzyNC38RzYkklJUlLJkBQaEPJvNRG4Q/ow7eJ9aRQ="
     },
-    "kubeone_1.14.1_darwin_arm64.sbom.spdx.json": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_darwin_arm64.sbom.spdx.json",
-      "hash": "sha256-oP13HfpfInuRdmstg65BsOaEnNeT/WX7xbHCTyWGhTs="
+    "kubeone_1.14.2_darwin_arm64.sbom.spdx.json": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_darwin_arm64.sbom.spdx.json",
+      "hash": "sha256-hrHNP0TByQe5RDgR0YuuikUkgNaLz3uQlE+ICiuj5BE="
     },
-    "kubeone_1.14.1_darwin_arm64.zip": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_darwin_arm64.zip",
-      "hash": "sha256-r9GsPk9alR3iej0Vvf8fqRElH2Xz5nbAUPnJDXP12Lw="
+    "kubeone_1.14.2_darwin_arm64.zip": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_darwin_arm64.zip",
+      "hash": "sha256-oUEW/Zy5ZqwUJehK/sOkTd7lR5KHX8t/h4LJHNImetw="
     },
-    "kubeone_1.14.1_linux_amd64.sbom.spdx.json": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_linux_amd64.sbom.spdx.json",
-      "hash": "sha256-cUl5LcCCpauyiAGwd90m+3KKLt4awNH/qSMs5aAFbI8="
+    "kubeone_1.14.2_linux_amd64.sbom.spdx.json": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_linux_amd64.sbom.spdx.json",
+      "hash": "sha256-EXpqzftHUu5NaXa0ewt3nBvbP5uadXchxxuIn4cKEfY="
     },
-    "kubeone_1.14.1_linux_amd64.zip": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_linux_amd64.zip",
-      "hash": "sha256-SLMRAVu5C4WpyWcm7nYgoGxg5o14rdeOrEafmt43/24="
+    "kubeone_1.14.2_linux_amd64.zip": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_linux_amd64.zip",
+      "hash": "sha256-DuyqLOPtA3E0yZapxporkkqDSFBJueqtCrENIuAG4Uo="
     },
-    "kubeone_1.14.1_linux_arm64.sbom.spdx.json": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_linux_arm64.sbom.spdx.json",
-      "hash": "sha256-tj2HRkq6rnjIo/SpJpg1ytacRo4GUr/8NOdxGq5InlM="
+    "kubeone_1.14.2_linux_arm64.sbom.spdx.json": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_linux_arm64.sbom.spdx.json",
+      "hash": "sha256-pKYOqmCUTB0ZywfwmGc3stITB7f904+3rcgKlOxDfcU="
     },
-    "kubeone_1.14.1_linux_arm64.zip": {
-      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.1/kubeone_1.14.1_linux_arm64.zip",
-      "hash": "sha256-0YvdjIId4drpYN3bOx9uXJJUQdeb7vLVEDWknIN9SSE="
+    "kubeone_1.14.2_linux_arm64.zip": {
+      "url": "https://github.com/kubermatic/kubeone/releases/download/v1.14.2/kubeone_1.14.2_linux_arm64.zip",
+      "hash": "sha256-ljllZF2TtvU9JdG7puXpbMv6v8LxGIQVsLmOU9h+Ft4="
     }
   }
 }
