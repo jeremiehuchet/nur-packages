@@ -2,7 +2,7 @@
   "renovate:datasource": "github-tags",
   "owner": "jeremiehuchet",
   "repo": "livebox-cli",
-  "version": "0.1.3",
-  "rev": "dbad9771e3da05c3a868236e594c6500a56f413d",
-  "hash": "sha256-AQyRb+8o8LAkNAKgc3Ff9umO8kv1khJFTIzBB/aW6Ww="
+  "version": "0.2",
+  "rev": "3dab3829c3b389da0639b7206d685aeb36b53ed4",
+  "hash": "sha256-V+zMfj7jJx+bBsY5RTpNHgNXo3B6aS83+Abxj+SUJGU="
 }
